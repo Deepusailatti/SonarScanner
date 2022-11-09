@@ -2,6 +2,8 @@
 // The above triggers groovy syntax highlighting in vim
 
 plugins {
+  id 'application'
+  id 'com.github.johnrengelman.shadow' version '5.2.0'
   id 'java-gradle-plugin'
   id 'java'
   id 'groovy'
@@ -10,7 +12,6 @@ plugins {
   id "com.gradle.plugin-publish" version "0.21.0"
   // Eat your own dog food :)
   id "org.sonarqube" version "3.4.0.2513"
-  id "com.jfrog.artifactory" version "4.24.23"
   id "com.github.hierynomus.license" version "0.16.1"
   id "pl.droidsonroids.jacoco.testkit" version "1.0.9"
   id "org.cyclonedx.bom" version "1.5.0"
